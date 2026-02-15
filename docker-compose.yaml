@@ -13,7 +13,5 @@ services:
   
   php:
     image: php:8.5-fpm-alpine3.22
-    ports:
-      - "80:80"
     volumes:
       - ./src:/var/www/html
